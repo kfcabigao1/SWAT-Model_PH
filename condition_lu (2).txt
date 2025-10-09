@@ -1,0 +1,11 @@
+CASE When  "class_name"  =  'Annual Crop' Then 1
+	When  "class_name"  =   'Brush/Shrubs'  Then 2
+	When  "class_name"  =    'Built-up' Then 3	
+	When  "class_name" IN ( 'Open Forest' , 'Closed Forest' )  Then 4
+	When  "class_name" IN ( 'Fishpond' , 'Inland Water' )  Then 5
+	When  "class_name"  =    'Grassland' Then 6
+	When  "class_name"  =  'Mangrove Forest'  Then 7
+	When  "class_name"  =  'Marshland/Swamp'  Then 8
+	When  "class_name"  =   'Open/Barren' Then 9
+	When  "class_name"  =   'Perennial Crop' Then 10
+END
